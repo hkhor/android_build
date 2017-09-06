@@ -2,7 +2,8 @@
 
 CLANG_CONFIG_x86_64_EXTRA_ASFLAGS :=
 CLANG_CONFIG_x86_64_EXTRA_CFLAGS := \
- -O3
+ -O3 \
+ -funsafe-math-optimizations
 CLANG_CONFIG_x86_64_EXTRA_LDFLAGS :=
 
 # Include common unknown flags
