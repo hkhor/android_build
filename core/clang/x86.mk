@@ -3,7 +3,8 @@
 CLANG_CONFIG_x86_EXTRA_ASFLAGS := \
   -msse3
 CLANG_CONFIG_x86_EXTRA_CFLAGS := \
-  -O3
+  -O3 \
+  -funsafe-math-optimizations
 CLANG_CONFIG_x86_EXTRA_LDFLAGS :=
 
 # Include common unknown flags
