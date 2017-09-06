@@ -43,6 +43,8 @@ endif # BUILD_HOST_static
 
 HOST_GLOBAL_CFLAGS += -fPIC \
   -no-canonical-prefixes \
+  -Ofast -funsafe-math-optimizations \
+  -mstackrealign
 
 HOST_GLOBAL_CFLAGS += -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector
 
