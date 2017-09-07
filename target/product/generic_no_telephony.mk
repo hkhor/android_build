@@ -26,7 +26,6 @@ PRODUCT_PACKAGES := \
     OneTimeInitializer \
     Provision \
     SystemUI \
-    EasterEgg \
     WallpaperCropper
 
 PRODUCT_PACKAGES += \
